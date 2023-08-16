@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+
+
+}
+.profile-image{
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+    
+}
+.header-bio {
+    float: left;
+    padding: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color:#11999e
+}
+.header-contact {
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a {
+    color: teal;
+    font-weight: bold;
+
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color:tomato;
+
+}
+
+.div-clear {
+    clear:both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom:none;
+}
+
+
+
+    /* / personal section Start */
+
+    #personal-section{
+
+    }
+    .content{
+        margin-bottom: 30px;
+    }
+    .left-side{
+        width: 30%;
+        float: left;
+    }
+    .right-side{
+        width: 70%;
+        float: left;
+        text-align: justify;
+    }
+    .common-hr{
+        border: solid black 1px;
+        border-bottom: none;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .right-side li{
+        list-style-type: disc;
+    }
+
+    /* # eduaction section part  */
+
+    .edu-template-left{
+        float: left;
+        width: 45%;
+    }
+    .edu-template-right{
+        float: left;
+        width: 45%;
+    }
+
+    /* # footer-start */
+    .bottom-container{
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+    }
+    .bottom-container a {
+        color: white;
+        margin: 20px;
+    }
+    .bottom-container p {
+        color: white;
+        margin-top: 20px;
+    }
